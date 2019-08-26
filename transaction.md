@@ -1,3 +1,24 @@
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
+**Table of Contents**
+
+- [-](#-)
+    - [不定长整型](#不定长整型)
+    - [交易(Transaction)](#交易transaction)
+    - [序列化](#序列化)
+        - [TxOutPoint](#txoutpoint)
+        - [TxIn](#txin)
+        - [TxOut](#txout)
+        - [交易结构](#交易结构)
+    - [交易合法性检查](#交易合法性检查)
+    - [交易费用](#交易费用)
+    - [coinbase交易](#coinbase交易)
+    - [交易锁定](#交易锁定)
+    - [交易目击者](#交易目击者)
+    - [RBF(Replace-By-Fee)](#rbfreplace-by-fee)
+    - [序列化](#序列化-1)
+
+<!-- markdown-toc end -->
+
 ## 名词解释
 ### 不定长整型
 |取值范围|存储大小|格式|
