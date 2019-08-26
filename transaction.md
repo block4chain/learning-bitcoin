@@ -146,5 +146,6 @@ if tx.LockTime == 0 {
 # 参考资料
 - [Transaction Wiki](https://en.bitcoin.it/wiki/Transaction)
 - [Transaction Protocol](https://en.bitcoin.it/wiki/Protocol_documentation#tx)
+- [Transaction Expiration](https://en.bitcoin.it/wiki/Transaction_expiration)
 - [Segrgated Witness](https://en.bitcoin.it/wiki/Segregated_Witness)
 - [Transaction Replacement](https://en.bitcoin.it/wiki/Transaction_replacement)
