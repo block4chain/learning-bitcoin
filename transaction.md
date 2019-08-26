@@ -26,11 +26,15 @@ type TxOutPoint struct {
     PreTx [32]byte  //事务ID
     Index uint32 //事务输出的位置索引
 }
+
+//代表一个交易输入
 type TxIn struct {
     PreOut TxOutPoint
     ScriptSig []byte
     Sequence uint32 //与RBF有关
 }
+
+//代表一个交易输出
 type TxOut struct {
     Amount int64 //UTXO金额
     ScriptPubKey []byte
