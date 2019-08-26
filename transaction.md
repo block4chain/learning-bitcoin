@@ -142,3 +142,9 @@ if tx.LockTime == 0 {
 # RBF(Replace-By-Fee)
 
 # 序列化
+
+# 参考资料
+- [Transaction Wiki](https://en.bitcoin.it/wiki/Transaction)
+- [Transaction Protocol](https://en.bitcoin.it/wiki/Protocol_documentation#tx)
+- [Segrgated Witness](https://en.bitcoin.it/wiki/Segregated_Witness)
+- [Transaction Replacement](https://en.bitcoin.it/wiki/Transaction_replacement)
