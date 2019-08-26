@@ -7,7 +7,7 @@
 |<=0xFFFF FFFF|5|0xFE+uint32_t|
 |..|9|0xFF+uint64_t|
 
-## 交易
+## 交易(Transaction)
 交易代表bitcoin状态机的一次状态迁移. 交易具有以下结构
 
 ``` go
@@ -88,8 +88,36 @@ type TxOut struct {
 输入UTXO的总金额-输出UTXO的总金额
 
 ## coinbase交易
+ 由miner创建的一类特殊的交易:
+
+ - 每个block都有一个coinbase交易
+ - coinbase没有输入, 可以凭空创建用于作为其它交易输入的UTXO
+ - coinbase交易用于奖励miner, 奖励包含两部分:
+     - 交易费用
+     - 挖矿激励
+ - coinbase的输出UTXO的总金额必须等于交易费用加上挖矿激励
+ - 创世块中的coinbase不能用作其它交易的输入
 
 ## 交易锁定
+一个交易可以通过Transaction.LockTime指定被添加到block的时间:
+
+``` go
+var current Block
+var tx Transaction
+if tx.LockTime == 0 {
+    current.Add(tx);
+}else if tx.LockTime < 500000000 {
+    if current.BlockNumber >= tx.LockTime {
+        current.Add(tx);
+    }
+}else{
+    if time.Now().Unix() >= tx.LockTime {
+        current.Add(tx);
+    }
+}
+```
 ## 交易目击者
+
 ## RBF(Replace-By-Fee)
+
 ## 序列化
