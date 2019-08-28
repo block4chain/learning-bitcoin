@@ -1,3 +1,12 @@
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
+**目录**
+
+- [交易脚本(Transaction Script)](#交易脚本transaction-script)
+    - [scriptSig与scriptPubKey分开执行](#scriptsig与scriptpubkey分开执行)
+- [脚本特点](#脚本特点)
+- [参考资料](#参考资料)
+
+<!-- markdown-toc end -->
 # 交易脚本(Transaction Script)
 
 交易的每个输入存在字段scriptSig, 每个输出存在字段scriptPubKey, 这两个字段分别存储一段脚本: scriptSig用来解锁UTXO, scriptPubKey用于锁定UTXO.
