@@ -149,3 +149,4 @@ if tx.LockTime == 0 {
 - [Transaction Expiration](https://en.bitcoin.it/wiki/Transaction_expiration)
 - [Segrgated Witness](https://en.bitcoin.it/wiki/Segregated_Witness)
 - [Transaction Replacement](https://en.bitcoin.it/wiki/Transaction_replacement)
+- [Segregated Witness (Consensus layer)](https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki)
