@@ -13,9 +13,17 @@
 - [交易费用](#交易费用)
 - [coinbase交易](#coinbase交易)
 - [交易锁定](#交易锁定)
+- [交易分类](#交易分类)
+    - [P2PK](#p2pk)
+    - [P2PKH(Pay-to-Public-Key-Hash)](#p2pkhpay-to-public-key-hash)
+    - [多重签名(Multisignature)](#多重签名multisignature)
+    - [P2SH(Pay-to-Script-Hash)](#p2shpay-to-script-hash)
+    - [废弃UTXO(Prunable Output)](#废弃utxoprunable-output)
+    - [冷冻UTXO](#冷冻utxo)
 - [交易目击者](#交易目击者)
 - [RBF(Replace-By-Fee)](#rbfreplace-by-fee)
 - [序列化](#序列化-1)
+- [参考资料](#参考资料)
 
 <!-- markdown-toc end -->
 # 名词解释
@@ -193,3 +201,5 @@ scriptSig: <sig> <pubKey>
 - [Transaction Expiration](https://en.bitcoin.it/wiki/Transaction_expiration)
 - [Segrgated Witness](https://en.bitcoin.it/wiki/Segregated_Witness)
 - [Transaction Replacement](https://en.bitcoin.it/wiki/Transaction_replacement)
+- [P2PK](https://learnmeabitcoin.com/glossary/p2pk)
+- [Transaction Script](https://en.bitcoin.it/wiki/Script#Standard_Transaction_to_Bitcoin_address_.28pay-to-pubkey-hash.29)
