@@ -184,7 +184,7 @@ scriptPubKey: OP_RETURN {zero or more ops}
 ```
 ## 冷冻UTXO
 
-``` powershell
+``` shell
 scriptPubKey: <expiry time> OP_CHECKLOCKTIMEVERIFY OP_DROP OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG
 scriptSig: <sig> <pubKey>
 ```
