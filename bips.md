@@ -1,3 +1,19 @@
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
+**目录**
+
+- [简介](#简介)
+- [历史BIP](#历史bip)
+    - [bip-0001](#bip-0001)
+    - [bip-0068](#bip-0068)
+    - [bip-0112](#bip-0112)
+    - [bip-0113](#bip-0113)
+    - [bip-0141](#bip-0141)
+    - [bip-0143](#bip-0143)
+    - [bip-0144](#bip-0144)
+    - [bip-0145](#bip-0145)
+    - [bip-0173](#bip-0173)
+
+<!-- markdown-toc end -->
 # 简介
 BIP, Bitcoin Improvement Proposal的简称, 为比特币社区提供规范，完善比特币及其运行进程和外部环境特性的设计指导文件.
 
