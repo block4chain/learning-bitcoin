@@ -201,5 +201,6 @@ scriptSig: <sig> <pubKey>
 - [Transaction Expiration](https://en.bitcoin.it/wiki/Transaction_expiration)
 - [Segrgated Witness](https://en.bitcoin.it/wiki/Segregated_Witness)
 - [Transaction Replacement](https://en.bitcoin.it/wiki/Transaction_replacement)
+- [Segregated Witness (Consensus layer)](https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki)
 - [P2PK](https://learnmeabitcoin.com/glossary/p2pk)
 - [Transaction Script](https://en.bitcoin.it/wiki/Script#Standard_Transaction_to_Bitcoin_address_.28pay-to-pubkey-hash.29)
