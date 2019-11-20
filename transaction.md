@@ -204,3 +204,4 @@ scriptSig: <sig> <pubKey>
 - [Segregated Witness (Consensus layer)](https://github.com/bitcoin/bips/blob/master/bip-0141.mediawiki)
 - [P2PK](https://learnmeabitcoin.com/glossary/p2pk)
 - [Transaction Script](https://en.bitcoin.it/wiki/Script#Standard_Transaction_to_Bitcoin_address_.28pay-to-pubkey-hash.29)
+- [一文读懂P2SH和P2WSH](https://msd.misuland.com/pd/3127746505234976126)
